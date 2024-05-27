@@ -1,0 +1,327 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 70rem;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.main-container > header {
+  padding: 0.5rem;
+}
+
+.main-container > header {
+  display: flex;
+}
+
+.main-container > header > p {
+  padding: 1rem 0;
+  margin-right: 5rem;
+  font-weight: 900;
+}
+
+.main-container > header > p > a {
+  color: #e73131;
+}
+
+.main-container > header > nav {
+  padding: 1rem 0;
+}
+
+.main-container header nav li::after,
+.main-container footer nav li::after {
+  content: "|";
+  margin-left: 1rem;
+  color: #ccc;
+}
+
+.main-container header nav li:last-child::after,
+.main-container footer nav li:last-child::after {
+  content: "";
+  margin-left: 0;
+}
+
+.main-container > main {
+  padding: 0.5rem;
+  min-height: calc(100vh - 69px - 53px);
+}
+
+.main-container > main > nav {
+  background-color: #f3f3f3;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.main-container > main > nav > ul {
+  justify-content: start;
+}
+
+.main-container > main > nav > ul > li {
+  margin: 0;
+}
+
+.main-container > main > nav > ul > li::before {
+  content: ">";
+  margin: 0 0.5rem;
+}
+
+.main-container > main > nav > ul > li:last-child {
+  font-weight: 900;
+}
+
+.main-container > footer {
+  background-color: #222;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.main-container > footer a {
+  display: inline-block;
+  color: #fff;
+  padding: 0.5rem 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav > ul,
+nav > ol {
+  display: flex;
+  justify-content: center;
+}
+
+nav > ul > li,
+nav > ol > li {
+  margin: 0 0.5rem;
+}
+
+.menu-navigation {
+  flex-grow: 1;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:active {
+  color: #666;
+}
+
+a:hover {
+  color: #666;
+}
+
+table {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+table thead > tr,
+table tbody > tr {
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody > tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+table tbody > tr:last-child {
+  border-bottom: 0;
+}
+
+table tbody > tr:hover {
+  background-color: #eee;
+}
+
+table td,
+table th {
+  padding: 0.5rem;
+  border-left: 1px solid #ddd;
+}
+
+table td:first-child,
+table th:first-child {
+  border-left: 0px;
+}
+
+input:focus,
+select:focus,
+button:focus {
+  outline: 0;
+}
+
+input,
+select,
+button {
+  border: 1px solid #ddd;
+}
+
+.search-area {
+  margin-top: 1rem;
+  background-color: #f3f3f3;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.search-area label,
+.search-area input,
+.search-area select,
+.search-area button {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.search-area label {
+  margin: 0 0.5rem;
+}
+
+.search-area label:first-child {
+  margin-left: 0;
+}
+
+.search-area input[type="search"] {
+  border: 1px solid #ccc;
+  border-right: 0;
+  border-radius: 0;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.search-area input[type="search"] + button {
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-radius: 0;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.modal {
+  border-radius: 0.4rem;
+  border: 0;
+  box-shadow: 0.1rem 0.1rem 1rem #999;
+}
+
+.modal-body {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.modal-body label {
+  display: inline-block;
+  padding: 0.3rem 0.3rem 0 0.3rem;
+  font-weight: 900;
+}
+
+.modal-body select,
+.modal-body input,
+.modal-body textarea {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.button-area {
+  margin-top: 0.3rem;
+}
+
+.button-area button {
+  padding: 0.3rem;
+  margin-left: 0.3rem;
+}
+
+.right-align {
+  text-align: right;
+}
+.new-article-modal,
+.view-article-modal {
+  width: 50%;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.modal-close-button {
+  display: inline-block;
+  font-weight: 900;
+  text-align: right;
+  cursor: pointer;
+}
+
+.section-area > div:first-child {
+  font-weight: 900;
+  margin-top: 0.5rem;
+}
+
+.section-area:first-of-type > div:first-child {
+  margin-top: 0;
+}
+
+.section-area:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.reply {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.reply pre {
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+
+.reply:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.replies > div {
+  height: 23rem;
+  overflow: auto;
+}
+
+.anchor {
+  color: #333;
+  cursor: pointer;
+}
+
+.anchor:active {
+  color: #666;
+}
+
+.anchor:hover {
+  color: #666;
+}
