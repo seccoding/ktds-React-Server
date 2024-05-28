@@ -33,12 +33,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -151,12 +151,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -314,12 +314,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -448,12 +448,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -557,12 +557,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -766,12 +766,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -857,12 +857,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -1094,12 +1094,12 @@ Binary
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -1185,12 +1185,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -1274,12 +1274,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -1499,12 +1499,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -1607,12 +1607,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -1702,12 +1702,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
@@ -1795,12 +1795,12 @@ None
   <tr>
     <td>status</td>
     <td>Number</td>
-    <td>HttpStatusCode</td>
+    <td>Http Status Code</td>
   </tr>
   <tr>
     <td>statusMessage</td>
     <td>String</td>
-    <td>Http Statue Message</td>
+    <td>Http Status Message</td>
   </tr>
   <tr>
     <td>pages</td>
