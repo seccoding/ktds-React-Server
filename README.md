@@ -1,10 +1,6 @@
 # React 실습 서버
 https://drive.google.com/drive/folders/1h8qfIK2He6ZaQ1zr5FleYuczgEtl80bp
 
-https://shorturl.at/UolJY
-
-firebase URL : https://react-todo-91655-default-rtdb.firebaseio.com
-
 java -jar ./react-api-server.jar
 
 http://localhost:8888
